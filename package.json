@@ -1,0 +1,17 @@
+{
+  "name": "s03e06-atelier-gamehub-lucienponcet",
+  "version": "1.0.0",
+  "description": "Bon, on a quelques jeux qui traînent, c'est cool ! Mais c'est le bazar !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "request-ip": "^3.3.0"
+  }
+}

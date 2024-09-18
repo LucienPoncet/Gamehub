@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>GameHub</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <% if (data.game && data.game.cssFile) { %>
+        <link rel="stylesheet" href="/css/<%= data.game.cssFile %> ">
+    <% } %>
+  </head>
+
+  <body>
+    <header>
+      <h1>GameHub</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <% for(const game of locals.gamesData) { %> 
+          <li><a href="/game/<%= game.name %>"><%= game.title %></a></li>
+          <% } %>
+        </ul>
+      </nav>
+    </header>

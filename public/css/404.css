@@ -1,0 +1,45 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+color:#3b4f69;
+background-color:#000000;
+background-color:RGBA(0, 0, 0, 0);
+font-size:150px;
+font-weight:700;
+font-stretch:100%;
+text-decoration:none solid rgb(68, 68, 68);
+text-align:center;
+text-indent:0px;
+}
+
+h2 {
+color:#465b6d;
+background-color:#000000;
+background-color:RGBA(0, 0, 0, 0);
+font-size:50px;
+font-weight:700;
+font-stretch:100%;
+text-decoration:none solid rgb(68, 68, 68);
+text-align:center;
+text-indent:0px;
+}
+
+p {
+    color:#113f58;
+    background-color:#000000;
+    background-color:RGBA(0, 0, 0, 0);
+    font-size:20px;
+    font-weight:500;
+    font-stretch:100%;
+    text-decoration:none solid rgb(68, 68, 68);
+    text-align:center;
+    text-indent:0px;
+}
+
+.logo {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}

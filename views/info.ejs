@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>info</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/404.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>GameHub</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <% for(const game of locals.gamesData) { %> 
+          <li><a href="/game/<%= game.name %>"><%= game.title %></a></li>
+          <% } %>
+        </ul>
+      </nav>
+    </header>
+
+    <p><%=  %></p>
+
+    </body>
+</html>
